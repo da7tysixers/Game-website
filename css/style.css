@@ -1,0 +1,443 @@
+/* style.css file */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Oswald:400,700|Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.slider{
+	overflow: hidden;
+	height: 350px;
+}
+
+.slider figure div{
+	width: 20%;
+	float: left;
+}
+
+.slider figure img{
+	width: 100%;
+	float: left;
+}
+
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slidy infinite;
+}
+
+@keyframes slidy{
+	0%{
+		left: 0%
+	}
+
+	10%{
+		left: 0%;
+	}
+
+	12%{
+		left: -100%;
+	}
+
+	22%{
+		left: -100%;
+	}
+
+	24%{
+		left: -200%;
+	}
+
+	34%{
+		left: -200%;
+	}
+
+	36%{
+		left: -300%;
+	}
+
+	46%{
+		left: -300%;
+	}
+
+	48%{
+		left: -400%;
+	}
+
+	58%{
+		left: -400%;
+	}
+
+	60%{
+		left: -300%;
+	}
+
+	70%{
+		left: -300%;
+	}
+
+	72%{
+		left: -200%;
+	}
+
+	82%{
+		left: -200%;
+	}
+
+	84%{
+		left: -100%;
+	}
+
+	94%{
+		left: -100%;
+	}
+
+	96%{
+		left: 0%;
+	}
+
+	100%{
+		left: 0%;
+	}
+}
+
+
+
+li {
+	font-family: 
+}
+
+
+header {
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 45px;
+}
+
+header h1 {
+	display: inline;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: left;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px
+
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+#headline {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.red {
+	background-color: red;
+	padding: 30px 10px 16px 10px;
+
+}
+
+.blue:hover {
+	background-color: blue;
+	padding: 5px 3px 4px 3px;
+
+}
+
+
+.divide {
+	background-color: red;
+	height: 5px;
+}
+
+.black:hover {
+	background-color: blue;
+	padding: 30px 10px 16px 10px;
+}
+
+.background {
+	background-image: url("http://emmanuelportfolio.altervista.org/img/image.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	padding: 0;
+	color: white;
+}
+
+.imgbutton {
+	text-align: left;
+
+}
+
+.homedesign {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 9% 5% 0% 55%;
+	font-size: 18px;
+	color: yellow;
+}
+
+.homegames {
+	font-family: 'Oswald', sans-serif;
+	margin: 0% 0% 0% 55%;
+	font-size: 64px;
+	color: red;
+	display: inline-block;
+}
+
+.homedeals {
+	font-family: 'Raleway', sans-serif;
+	margin: 0.5% 0% 0% 55%;
+	font-size: 80px;
+	background-color: rgba(0, 0, 0, 2.5);
+	display: inline-block;
+}
+
+.cart {
+	background: red;
+	color: white;
+	border: none;
+	height: 20px;
+	font-size: 0.6em;
+	padding: 0 1em;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+.cart:hover {
+	background-color: black;
+}
+
+.login {
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	background-color: grey;
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.login img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-right: 8px;
+	margin-bottom: 30px; 
+}
+
+input[type= "text"], input[type= "password"] {
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	border-radius: 4px;
+	border: none;
+	margin-bottom:20px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.form-input::before {
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: 35px;
+}
+
+.btn-login {
+	height: 45px;
+	padding: 15px 30px;
+	color: #fff;
+	background-color: #F61212;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	border-bottom: 4px solid #F74C4C;
+	margin-bottom: 20px;
+
+}
+
+.forgot {
+	color: #fff;
+
+}
+
+.click {
+	padding: 8px 16px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: red;
+	color: white;
+} 
+
+.float {
+	float: right;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+
+
+.container {
+	width: 989px;
+	margin: 0 auto;
+	background-color: ;
+}
+
+.comments {
+	width: 600px;
+	height: 680px;
+	text-align: center;
+	background-color: grey;
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 150px;
+	padding: 30px 0;
+}
+
+
+
+
+.footerwidget{
+	background:#f3f3f3;
+	padding:40px 0px;
+}
+.footerwidget .single_widget{
+	margin:10px 0px;
+}
+.footerwidget .single_widget h4{
+	color:#ff5f3b;
+	font-size:14px;
+}
+.footerwidget .single_widget ul li a{
+    color: #000;
+    font-size: .8125rem;
+    line-height: 1.575rem;
+}
+.footerwidget .single_widget ul li:hover a{
+    color: #7f0cad;
+}
+
+.single_widget li a strong{
+	color:#7f0cad;
+}
+
+
+.main_footer p{
+padding:30px 0px;
+}
+.single_footer_right{
+	text-align:right;
+}
+.single_footer_right p i{
+	padding:0px 10px;
+	color:#ff0000;
+}
+
+.single_footer_right p a{
+	padding:0px 10px;
+	color:#7f0cad;
+	font-weight:700;
+}
+
+
+.latest-table {
+	color: black;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 30px 0px;
+	color: black;
+}
+
+.space{
+	padding: 5px 5px 5px 5px;
+}
+
+.banner {
+	width: 97.2%;
+	background: url(http://bftdm.com/wp-content/uploads/2016/09/battlefield1c.jpg);
+	background-size: cover;
+	font-size: 60px;
+	color: #fff;
+	text-align: right;
+	padding: 40px 15px;
+
+}
+
+.big-text {
+	font-size: 50px;
+	font-weight: 400;
+}
+
+
+.banner a {
+	display: inline-block;
+	background: yellow;
+	color: #333;
+	text-transform: none;
+	text-decoration: none;
+	font-size: 40px;
+	text-align: center;
+	padding: 15px;
+	transition: .3s;
+	width: 120px;
+	height: 140px;
+}
+
+.banner a:hover {
+		background: #F43B3B;
+		color: #fff;
+}
+
+.ceo {
+	height: 150px;
+	width: 100px;
+	padding: none;
+	margin-top: 10px;
+	border: 5px solid black;
+}
+
+.about {
+	background-color: white;
+	color: black;
+}
+
+.blog {
+	height: 800px;
+	width: 98.5%;
+	
+
+}
